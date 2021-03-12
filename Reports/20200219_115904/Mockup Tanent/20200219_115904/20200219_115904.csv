@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Mockup Tanent,Chrome 79.0.3945.130,,,2020-02-19 11:59:09,2020-02-19 12:33:39,34m - 29.908s,PASSED
+,,,,,,,
+Test Cases/TC-02_CPN_Tenants_MockUp,Chrome 79.0.3945.130,,,2020-02-19 11:59:09,2020-02-19 12:33:39,34m - 29.569s,PASSED
+"closeC = "" """,Chrome 79.0.3945.130,,,2020-02-19 11:59:10,2020-02-19 11:59:10,0.001s,PASSED
+"xlsData = findTestData(""mockup_tanent"")",Chrome 79.0.3945.130,,,2020-02-19 11:59:10,2020-02-19 11:59:11,0.815s,PASSED
+"for ([row = 1, row <= xlsData.getRowNumbers(), (row++)])",Chrome 79.0.3945.130,,,2020-02-19 11:59:11,2020-02-19 12:33:39,34m - 28.151s,PASSED

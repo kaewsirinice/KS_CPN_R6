@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Mockup Shopper,Chrome 78.0.3904.97,,,2019-11-15 15:27:10,2019-11-15 15:35:11,8m - 0.629s,PASSED
+,,,,,,,
+Test Cases/TC-01_CPN_Shopper_MockUp,Chrome 78.0.3904.97,,,2019-11-15 15:27:10,2019-11-15 15:35:11,8m - 0.266s,PASSED
+"closeC = "" """,Chrome 78.0.3904.97,,,2019-11-15 15:27:11,2019-11-15 15:27:11,0.002s,PASSED
+"xlsData = findTestData(""mockup_shopper"")",Chrome 78.0.3904.97,,,2019-11-15 15:27:11,2019-11-15 15:27:11,0.636s,PASSED
+"checkBox = findTestObject(""Object Repository/checkbox"")",Chrome 78.0.3904.97,,,2019-11-15 15:27:11,2019-11-15 15:27:11,0.063s,PASSED
+"for ([row = 1, row <= xlsData.getRowNumbers(), (row++)])",Chrome 78.0.3904.97,,,2019-11-15 15:27:11,2019-11-15 15:35:11,7m - 59.084s,PASSED

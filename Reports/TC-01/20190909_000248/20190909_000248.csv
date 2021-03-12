@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC-01,Chrome 76.0.3809.132,,,2019-09-09 00:02:50,2019-09-09 00:04:29,1m - 38.569s,INCOMPLETE
+,,,,,,,
+Test Cases/TC-01_CPN_Shopper,Chrome 76.0.3809.132,,,2019-09-09 00:02:50,2019-09-09 00:04:29,1m - 38.382s,PASSED
+"xlsData = findTestData(""Data_CPN_Shopper"")",Chrome 76.0.3809.132,,,2019-09-09 00:02:51,2019-09-09 00:02:52,0.723s,PASSED
+"checkBox = findTestObject(""Object Repository/checkbox"")",Chrome 76.0.3809.132,,,2019-09-09 00:02:52,2019-09-09 00:02:52,0.023s,PASSED
+"for ([row = 1, row <= xlsData.getRowNumbers(), (row++)])",Chrome 76.0.3809.132,,,2019-09-09 00:02:52,2019-09-09 00:04:29,1m - 37.216s,PASSED

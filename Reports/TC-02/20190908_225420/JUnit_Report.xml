@@ -1,0 +1,2633 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="TC-02" time="139" tests="1" failures="0" errors="0">
+    <testsuite name="TC-02" tests="1" failures="0" errors="0" time="139" timestamp="2019-09-08 22:54:22" hostname="natty - 192.168.1.7" id="Test Suites/TC-02">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="/Users/natty/Katalon Studio/CPN_R5/Reports/TC-02/20190908_225420"/>
+            <property name="logFiles" value="/Users/natty/Katalon Studio/CPN_R5/Reports/TC-02/20190908_225420/execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="natty - 192.168.1.7"/>
+            <property name="os" value="Mac OS X 64bit"/>
+            <property name="katalonVersion" value="6.1.5.3"/>
+            <property name="browser" value="Chrome 76.0.3809.132"/>
+            <property name="hostAddress" value="192.168.1.7"/>
+            <property name="sessionId" value="807ab9dfe5af62c3fbc6d436f8fdf5a2"/>
+            <property name="seleniumVersion" value="3.7.1"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Mac OS X"/>
+        </properties>
+        <testcase name="Test Cases/TC-02_CPN_Tenants" classname="Test Cases/TC-02_CPN_Tenants" status="PASSED">
+            <system-out>2019-09-08 22:54:22 - [TEST_CASE][PASSED] - Test Cases/TC-02_CPN_Tenants: Test Cases/TC-02_CPN_Tenants
+
+2019-09-08 22:54:23 - [TEST_STEP][PASSED] - xlsData = findTestData("Data_CPN_Tenants"): null
+
+2019-09-08 22:54:23 - [TEST_STEP][PASSED] - for ([row = 1, row &lt;= xlsData.getRowNumbers(), (row++)]): Browser is closed
+
+2019-09-08 22:54:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-09-08 22:54:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-09-08 22:54:24 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-09-08 22:54:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-09-08 22:54:25 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-09-08 22:54:26 - [MESSAGE][PASSED] - Current window maximized
+
+2019-09-08 22:54:26 - [TEST_STEP][PASSED] - navigateToUrl("https://surveyconduct.feedback180.com/2loxunw?round=5"): Navigate to 'https://surveyconduct.feedback180.com/2loxunw?round=5' successfully
+
+2019-09-08 22:54:27 - [MESSAGE][PASSED] - Navigate to 'https://surveyconduct.feedback180.com/2loxunw?round=5' successfully
+
+2019-09-08 22:54:27 - [TEST_STEP][PASSED] - click(findTestObject("btn_start")): Object: 'Object Repository/btn_start' is clicked on
+
+2019-09-08 22:54:28 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_start' is clicked on
+
+2019-09-08 22:54:28 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("dropdown_region"), time): Object 'Object Repository/dropdown_region' is visible
+
+2019-09-08 22:54:28 - [MESSAGE][PASSED] - Object 'Object Repository/dropdown_region' is visible
+
+2019-09-08 22:54:28 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("dropdown_region"), xlsData.getValue("B2_1", row), true): All options with label 'ภาคตะวันออกเฉียงเหนือ' are selected in object 'Object Repository/dropdown_region'  using regular expression
+
+2019-09-08 22:54:28 - [MESSAGE][PASSED] - All options with label 'ภาคตะวันออกเฉียงเหนือ' are selected in object 'Object Repository/dropdown_region'  using regular expression
+
+2019-09-08 22:54:28 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("dropdown_branch"), time): Object 'Object Repository/dropdown_branch' is visible
+
+2019-09-08 22:54:28 - [MESSAGE][PASSED] - Object 'Object Repository/dropdown_branch' is visible
+
+2019-09-08 22:54:28 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("dropdown_branch"), xlsData.getValue("B2_2", row), true): All options with label 'เซ็นทรัลพลาซา  อุบลราชธานี' are selected in object 'Object Repository/dropdown_branch'  using regular expression
+
+2019-09-08 22:54:28 - [MESSAGE][PASSED] - All options with label 'เซ็นทรัลพลาซา  อุบลราชธานี' are selected in object 'Object Repository/dropdown_branch'  using regular expression
+
+2019-09-08 22:54:28 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:28 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:28 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:28 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:28 - [TEST_STEP][PASSED] - click(findTestObject("radio_age", ["age":xlsData.getValue("T2", row)])): Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:54:29 - [MESSAGE][PASSED] - Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:54:29 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:29 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:29 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:29 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:29 - [TEST_STEP][PASSED] - click(findTestObject("radio_age", ["age":xlsData.getValue("T3", row)])): Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:54:29 - [MESSAGE][PASSED] - Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:54:29 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:29 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:29 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:29 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:29 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S1", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:29 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:29 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:29 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:29 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:29 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:29 - [TEST_STEP][PASSED] - click(findTestObject("radio_age", ["age":xlsData.getValue("S2", row)])): Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:54:29 - [MESSAGE][PASSED] - Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:54:29 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:29 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:29 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:29 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:29 - [TEST_STEP][PASSED] - "สำหรับเจ้าหน้าที่ศูนย์การค้าในข้างต้นคุณมีความพึงพอใจต่อการให้บริการในด้านต่อไปนี้ระดับใด?": null
+
+2019-09-08 22:54:29 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S3_1", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:29 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:29 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"2", "vote":xlsData.getValue("S3_2", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:29 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:29 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"3", "vote":xlsData.getValue("S3_3", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:29 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:29 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"4", "vote":xlsData.getValue("S3_4", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:29 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:29 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"5", "vote":xlsData.getValue("S3_5", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:29 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:29 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:29 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:29 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:29 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:29 - [TEST_STEP][PASSED] - "อีเว้นท์และโปรโมชั่นส่งเสริมการขาย": null
+
+2019-09-08 22:54:29 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S4_1", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:30 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:30 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"2", "vote":xlsData.getValue("S4_2", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:30 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:30 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"3", "vote":xlsData.getValue("S4_3", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:30 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:30 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"4", "vote":xlsData.getValue("S4_4", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:30 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:30 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"5", "vote":xlsData.getValue("S4_5", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:30 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:30 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:30 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:30 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:30 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:30 - [TEST_STEP][PASSED] - click(findTestObject("radio_age", ["age":xlsData.getValue("S4-1", row)])): Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:54:30 - [MESSAGE][PASSED] - Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:54:30 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:30 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:30 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:30 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:30 - [TEST_STEP][PASSED] - if (getValue("S4-1", row).equalsIgnoreCase("1")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:30 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S4_6", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:30 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:30 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"2", "vote":xlsData.getValue("S4_7", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:30 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:30 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"3", "vote":xlsData.getValue("S4_8", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:30 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:30 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"4", "vote":xlsData.getValue("S4_9", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:30 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:30 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:30 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:30 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:30 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:30 - [TEST_STEP][PASSED] - "สภาพแวดล้อมบริเวณหน้าร้านค้าและภายในศูนย์การค้า": null
+
+2019-09-08 22:54:30 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S4_11", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:30 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:30 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"2", "vote":xlsData.getValue("S4_12", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:30 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:30 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"3", "vote":xlsData.getValue("S4_13", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:30 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:30 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"4", "vote":xlsData.getValue("S4_14", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:31 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:31 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"5", "vote":xlsData.getValue("S4_15.1", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:31 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:31 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"6", "vote":xlsData.getValue("S4_15.2", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:31 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:31 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:31 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:31 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:31 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:31 - [TEST_STEP][PASSED] - "การบริหารจัดการศูนย์การค้า": null
+
+2019-09-08 22:54:31 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S4_16", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:31 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:31 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"2", "vote":xlsData.getValue("S4_17", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:31 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:31 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"3", "vote":xlsData.getValue("S4_18", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:31 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:31 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:31 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:31 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:31 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:31 - [TEST_STEP][PASSED] - setText(findTestObject("text_area2"), xlsData.getValue("S5", row)): Text 'Test1' is set on object 'Object Repository/text_area2'
+
+2019-09-08 22:54:31 - [MESSAGE][PASSED] - Text 'Test1' is set on object 'Object Repository/text_area2'
+
+2019-09-08 22:54:31 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:31 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:31 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:31 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-09-08 22:54:31 - [MESSAGE][PASSED] - Browser is closed
+
+2019-09-08 22:54:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-09-08 22:54:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-09-08 22:54:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-09-08 22:54:32 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-09-08 22:54:33 - [MESSAGE][PASSED] - Current window maximized
+
+2019-09-08 22:54:33 - [TEST_STEP][PASSED] - navigateToUrl("https://surveyconduct.feedback180.com/2loxunw?round=5"): Navigate to 'https://surveyconduct.feedback180.com/2loxunw?round=5' successfully
+
+2019-09-08 22:54:34 - [MESSAGE][PASSED] - Navigate to 'https://surveyconduct.feedback180.com/2loxunw?round=5' successfully
+
+2019-09-08 22:54:34 - [TEST_STEP][PASSED] - click(findTestObject("btn_start")): Object: 'Object Repository/btn_start' is clicked on
+
+2019-09-08 22:54:35 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_start' is clicked on
+
+2019-09-08 22:54:35 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("dropdown_region"), time): Object 'Object Repository/dropdown_region' is visible
+
+2019-09-08 22:54:35 - [MESSAGE][PASSED] - Object 'Object Repository/dropdown_region' is visible
+
+2019-09-08 22:54:35 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("dropdown_region"), xlsData.getValue("B2_1", row), true): All options with label 'ภาคเหนือ' are selected in object 'Object Repository/dropdown_region'  using regular expression
+
+2019-09-08 22:54:35 - [MESSAGE][PASSED] - All options with label 'ภาคเหนือ' are selected in object 'Object Repository/dropdown_region'  using regular expression
+
+2019-09-08 22:54:35 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("dropdown_branch"), time): Object 'Object Repository/dropdown_branch' is visible
+
+2019-09-08 22:54:35 - [MESSAGE][PASSED] - Object 'Object Repository/dropdown_branch' is visible
+
+2019-09-08 22:54:35 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("dropdown_branch"), xlsData.getValue("B2_2", row), true): All options with label 'เซ็นทรัลพลาซา  ลำปาง' are selected in object 'Object Repository/dropdown_branch'  using regular expression
+
+2019-09-08 22:54:35 - [MESSAGE][PASSED] - All options with label 'เซ็นทรัลพลาซา  ลำปาง' are selected in object 'Object Repository/dropdown_branch'  using regular expression
+
+2019-09-08 22:54:35 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:35 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:35 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:35 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:35 - [TEST_STEP][PASSED] - click(findTestObject("radio_age", ["age":xlsData.getValue("T2", row)])): Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:54:35 - [MESSAGE][PASSED] - Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:54:35 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:35 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:35 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:35 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:35 - [TEST_STEP][PASSED] - click(findTestObject("radio_age", ["age":xlsData.getValue("T3", row)])): Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:54:35 - [MESSAGE][PASSED] - Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:54:35 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:36 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:36 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:36 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:36 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S1", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:36 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:36 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:36 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:36 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:36 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:36 - [TEST_STEP][PASSED] - click(findTestObject("radio_age", ["age":xlsData.getValue("S2", row)])): Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:54:36 - [MESSAGE][PASSED] - Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:54:36 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:36 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:36 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:36 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:36 - [TEST_STEP][PASSED] - "สำหรับเจ้าหน้าที่ศูนย์การค้าในข้างต้นคุณมีความพึงพอใจต่อการให้บริการในด้านต่อไปนี้ระดับใด?": null
+
+2019-09-08 22:54:36 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S3_1", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:36 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:36 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"2", "vote":xlsData.getValue("S3_2", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:36 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:36 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"3", "vote":xlsData.getValue("S3_3", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:36 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:36 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"4", "vote":xlsData.getValue("S3_4", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:36 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:36 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"5", "vote":xlsData.getValue("S3_5", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:36 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:36 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:36 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:36 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:36 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:36 - [TEST_STEP][PASSED] - "อีเว้นท์และโปรโมชั่นส่งเสริมการขาย": null
+
+2019-09-08 22:54:36 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S4_1", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:36 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:36 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"2", "vote":xlsData.getValue("S4_2", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:36 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:36 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"3", "vote":xlsData.getValue("S4_3", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:36 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:36 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"4", "vote":xlsData.getValue("S4_4", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:37 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:37 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"5", "vote":xlsData.getValue("S4_5", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:37 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:37 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:37 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:37 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:37 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:37 - [TEST_STEP][PASSED] - click(findTestObject("radio_age", ["age":xlsData.getValue("S4-1", row)])): Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:54:37 - [MESSAGE][PASSED] - Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:54:37 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:37 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:37 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:37 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:37 - [TEST_STEP][PASSED] - if (getValue("S4-1", row).equalsIgnoreCase("1")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:37 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S4_6", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:37 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:37 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"2", "vote":xlsData.getValue("S4_7", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:37 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:37 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"3", "vote":xlsData.getValue("S4_8", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:37 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:37 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"4", "vote":xlsData.getValue("S4_9", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:37 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:37 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:37 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:37 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:37 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:37 - [TEST_STEP][PASSED] - "สภาพแวดล้อมบริเวณหน้าร้านค้าและภายในศูนย์การค้า": null
+
+2019-09-08 22:54:37 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S4_11", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:37 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:37 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"2", "vote":xlsData.getValue("S4_12", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:37 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:37 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"3", "vote":xlsData.getValue("S4_13", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:37 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:37 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"4", "vote":xlsData.getValue("S4_14", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:37 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:37 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"5", "vote":xlsData.getValue("S4_15.1", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:38 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:38 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"6", "vote":xlsData.getValue("S4_15.2", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:38 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:38 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:38 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:38 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:38 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:38 - [TEST_STEP][PASSED] - "การบริหารจัดการศูนย์การค้า": null
+
+2019-09-08 22:54:38 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S4_16", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:38 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:38 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"2", "vote":xlsData.getValue("S4_17", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:38 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:38 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"3", "vote":xlsData.getValue("S4_18", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:38 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:38 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:38 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:38 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:38 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:38 - [TEST_STEP][PASSED] - setText(findTestObject("text_area2"), xlsData.getValue("S5", row)): Text 'Test2' is set on object 'Object Repository/text_area2'
+
+2019-09-08 22:54:38 - [MESSAGE][PASSED] - Text 'Test2' is set on object 'Object Repository/text_area2'
+
+2019-09-08 22:54:38 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:38 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:38 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:38 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-09-08 22:54:38 - [MESSAGE][PASSED] - Browser is closed
+
+2019-09-08 22:54:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-09-08 22:54:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-09-08 22:54:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-09-08 22:54:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-09-08 22:54:40 - [MESSAGE][PASSED] - Current window maximized
+
+2019-09-08 22:54:40 - [TEST_STEP][PASSED] - navigateToUrl("https://surveyconduct.feedback180.com/2loxunw?round=5"): Navigate to 'https://surveyconduct.feedback180.com/2loxunw?round=5' successfully
+
+2019-09-08 22:54:41 - [MESSAGE][PASSED] - Navigate to 'https://surveyconduct.feedback180.com/2loxunw?round=5' successfully
+
+2019-09-08 22:54:41 - [TEST_STEP][PASSED] - click(findTestObject("btn_start")): Object: 'Object Repository/btn_start' is clicked on
+
+2019-09-08 22:54:42 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_start' is clicked on
+
+2019-09-08 22:54:42 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("dropdown_region"), time): Object 'Object Repository/dropdown_region' is visible
+
+2019-09-08 22:54:42 - [MESSAGE][PASSED] - Object 'Object Repository/dropdown_region' is visible
+
+2019-09-08 22:54:42 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("dropdown_region"), xlsData.getValue("B2_1", row), true): All options with label 'ภาคตะวันออกเฉียงเหนือ' are selected in object 'Object Repository/dropdown_region'  using regular expression
+
+2019-09-08 22:54:42 - [MESSAGE][PASSED] - All options with label 'ภาคตะวันออกเฉียงเหนือ' are selected in object 'Object Repository/dropdown_region'  using regular expression
+
+2019-09-08 22:54:42 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("dropdown_branch"), time): Object 'Object Repository/dropdown_branch' is visible
+
+2019-09-08 22:54:42 - [MESSAGE][PASSED] - Object 'Object Repository/dropdown_branch' is visible
+
+2019-09-08 22:54:42 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("dropdown_branch"), xlsData.getValue("B2_2", row), true): All options with label 'เซ็นทรัลพลาซา อุดรธานี' are selected in object 'Object Repository/dropdown_branch'  using regular expression
+
+2019-09-08 22:54:43 - [MESSAGE][PASSED] - All options with label 'เซ็นทรัลพลาซา อุดรธานี' are selected in object 'Object Repository/dropdown_branch'  using regular expression
+
+2019-09-08 22:54:43 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:43 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:43 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:43 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:43 - [TEST_STEP][PASSED] - click(findTestObject("radio_age", ["age":xlsData.getValue("T2", row)])): Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:54:43 - [MESSAGE][PASSED] - Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:54:43 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:43 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:43 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:43 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:43 - [TEST_STEP][PASSED] - click(findTestObject("radio_age", ["age":xlsData.getValue("T3", row)])): Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:54:43 - [MESSAGE][PASSED] - Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:54:43 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:43 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:43 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:43 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:43 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S1", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:43 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:43 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:43 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:43 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:43 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:43 - [TEST_STEP][PASSED] - click(findTestObject("radio_age", ["age":xlsData.getValue("S2", row)])): Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:54:43 - [MESSAGE][PASSED] - Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:54:43 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:43 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:43 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:43 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:43 - [TEST_STEP][PASSED] - "สำหรับเจ้าหน้าที่ศูนย์การค้าในข้างต้นคุณมีความพึงพอใจต่อการให้บริการในด้านต่อไปนี้ระดับใด?": null
+
+2019-09-08 22:54:43 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S3_1", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:43 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:43 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"2", "vote":xlsData.getValue("S3_2", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:43 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:43 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"3", "vote":xlsData.getValue("S3_3", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:43 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:43 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"4", "vote":xlsData.getValue("S3_4", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:43 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:43 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"5", "vote":xlsData.getValue("S3_5", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:44 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:44 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:44 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:44 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:44 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:44 - [TEST_STEP][PASSED] - "อีเว้นท์และโปรโมชั่นส่งเสริมการขาย": null
+
+2019-09-08 22:54:44 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S4_1", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:44 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:44 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"2", "vote":xlsData.getValue("S4_2", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:44 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:44 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"3", "vote":xlsData.getValue("S4_3", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:44 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:44 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"4", "vote":xlsData.getValue("S4_4", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:44 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:44 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"5", "vote":xlsData.getValue("S4_5", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:44 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:44 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:44 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:44 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:44 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:44 - [TEST_STEP][PASSED] - click(findTestObject("radio_age", ["age":xlsData.getValue("S4-1", row)])): Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:54:44 - [MESSAGE][PASSED] - Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:54:44 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:44 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:44 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:44 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:44 - [TEST_STEP][PASSED] - if (getValue("S4-1", row).equalsIgnoreCase("1")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:44 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S4_6", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:44 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:44 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"2", "vote":xlsData.getValue("S4_7", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:44 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:44 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"3", "vote":xlsData.getValue("S4_8", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:44 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:44 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"4", "vote":xlsData.getValue("S4_9", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:45 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:45 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:45 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:45 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:45 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:45 - [TEST_STEP][PASSED] - "สภาพแวดล้อมบริเวณหน้าร้านค้าและภายในศูนย์การค้า": null
+
+2019-09-08 22:54:45 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S4_11", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:45 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:45 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"2", "vote":xlsData.getValue("S4_12", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:45 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:45 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"3", "vote":xlsData.getValue("S4_13", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:45 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:45 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"4", "vote":xlsData.getValue("S4_14", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:45 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:45 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"5", "vote":xlsData.getValue("S4_15.1", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:45 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:45 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"6", "vote":xlsData.getValue("S4_15.2", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:45 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:45 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:45 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:45 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:45 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:45 - [TEST_STEP][PASSED] - "การบริหารจัดการศูนย์การค้า": null
+
+2019-09-08 22:54:45 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S4_16", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:45 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:45 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"2", "vote":xlsData.getValue("S4_17", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:45 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:45 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"3", "vote":xlsData.getValue("S4_18", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:45 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:45 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:45 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:45 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:45 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:45 - [TEST_STEP][PASSED] - setText(findTestObject("text_area2"), xlsData.getValue("S5", row)): Text 'Test3' is set on object 'Object Repository/text_area2'
+
+2019-09-08 22:54:46 - [MESSAGE][PASSED] - Text 'Test3' is set on object 'Object Repository/text_area2'
+
+2019-09-08 22:54:46 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:46 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:46 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:46 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-09-08 22:54:46 - [MESSAGE][PASSED] - Browser is closed
+
+2019-09-08 22:54:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-09-08 22:54:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-09-08 22:54:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-09-08 22:54:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-09-08 22:54:47 - [MESSAGE][PASSED] - Current window maximized
+
+2019-09-08 22:54:47 - [TEST_STEP][PASSED] - navigateToUrl("https://surveyconduct.feedback180.com/2loxunw?round=5"): Navigate to 'https://surveyconduct.feedback180.com/2loxunw?round=5' successfully
+
+2019-09-08 22:54:48 - [MESSAGE][PASSED] - Navigate to 'https://surveyconduct.feedback180.com/2loxunw?round=5' successfully
+
+2019-09-08 22:54:48 - [TEST_STEP][PASSED] - click(findTestObject("btn_start")): Object: 'Object Repository/btn_start' is clicked on
+
+2019-09-08 22:54:49 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_start' is clicked on
+
+2019-09-08 22:54:49 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("dropdown_region"), time): Object 'Object Repository/dropdown_region' is visible
+
+2019-09-08 22:54:49 - [MESSAGE][PASSED] - Object 'Object Repository/dropdown_region' is visible
+
+2019-09-08 22:54:49 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("dropdown_region"), xlsData.getValue("B2_1", row), true): All options with label 'กรุงเทพฯ' are selected in object 'Object Repository/dropdown_region'  using regular expression
+
+2019-09-08 22:54:49 - [MESSAGE][PASSED] - All options with label 'กรุงเทพฯ' are selected in object 'Object Repository/dropdown_region'  using regular expression
+
+2019-09-08 22:54:49 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("dropdown_branch"), time): Object 'Object Repository/dropdown_branch' is visible
+
+2019-09-08 22:54:49 - [MESSAGE][PASSED] - Object 'Object Repository/dropdown_branch' is visible
+
+2019-09-08 22:54:49 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("dropdown_branch"), xlsData.getValue("B2_2", row), true): All options with label 'เซ็นทรัลพลาซา  รัตนาธิเบศร์' are selected in object 'Object Repository/dropdown_branch'  using regular expression
+
+2019-09-08 22:54:50 - [MESSAGE][PASSED] - All options with label 'เซ็นทรัลพลาซา  รัตนาธิเบศร์' are selected in object 'Object Repository/dropdown_branch'  using regular expression
+
+2019-09-08 22:54:50 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:50 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:50 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:50 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:50 - [TEST_STEP][PASSED] - click(findTestObject("radio_age", ["age":xlsData.getValue("T2", row)])): Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:54:50 - [MESSAGE][PASSED] - Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:54:50 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:50 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:50 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:50 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:50 - [TEST_STEP][PASSED] - click(findTestObject("radio_age", ["age":xlsData.getValue("T3", row)])): Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:54:50 - [MESSAGE][PASSED] - Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:54:50 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:50 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:50 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:50 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:50 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S1", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:50 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:50 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:50 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:50 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:50 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:50 - [TEST_STEP][PASSED] - click(findTestObject("radio_age", ["age":xlsData.getValue("S2", row)])): Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:54:51 - [MESSAGE][PASSED] - Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:54:51 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:51 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:51 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:51 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:51 - [TEST_STEP][PASSED] - "สำหรับเจ้าหน้าที่ศูนย์การค้าในข้างต้นคุณมีความพึงพอใจต่อการให้บริการในด้านต่อไปนี้ระดับใด?": null
+
+2019-09-08 22:54:51 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S3_1", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:51 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:51 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"2", "vote":xlsData.getValue("S3_2", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:51 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:51 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"3", "vote":xlsData.getValue("S3_3", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:51 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:51 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"4", "vote":xlsData.getValue("S3_4", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:51 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:51 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"5", "vote":xlsData.getValue("S3_5", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:51 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:51 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:51 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:51 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:51 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:51 - [TEST_STEP][PASSED] - "อีเว้นท์และโปรโมชั่นส่งเสริมการขาย": null
+
+2019-09-08 22:54:51 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S4_1", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:51 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:51 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"2", "vote":xlsData.getValue("S4_2", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:51 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:51 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"3", "vote":xlsData.getValue("S4_3", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:51 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:51 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"4", "vote":xlsData.getValue("S4_4", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:52 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:52 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"5", "vote":xlsData.getValue("S4_5", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:52 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:52 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:52 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:52 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:52 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:52 - [TEST_STEP][PASSED] - click(findTestObject("radio_age", ["age":xlsData.getValue("S4-1", row)])): Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:54:52 - [MESSAGE][PASSED] - Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:54:52 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:52 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:52 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:52 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:52 - [TEST_STEP][PASSED] - if (getValue("S4-1", row).equalsIgnoreCase("1")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:52 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S4_6", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:52 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:52 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"2", "vote":xlsData.getValue("S4_7", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:52 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:52 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"3", "vote":xlsData.getValue("S4_8", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:52 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:52 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"4", "vote":xlsData.getValue("S4_9", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:52 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:52 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:53 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:53 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:53 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:53 - [TEST_STEP][PASSED] - "สภาพแวดล้อมบริเวณหน้าร้านค้าและภายในศูนย์การค้า": null
+
+2019-09-08 22:54:53 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S4_11", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:53 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:53 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"2", "vote":xlsData.getValue("S4_12", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:53 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:53 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"3", "vote":xlsData.getValue("S4_13", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:53 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:53 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"4", "vote":xlsData.getValue("S4_14", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:53 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:53 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"5", "vote":xlsData.getValue("S4_15.1", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:53 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:53 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"6", "vote":xlsData.getValue("S4_15.2", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:53 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:53 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:53 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:53 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:53 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:53 - [TEST_STEP][PASSED] - "การบริหารจัดการศูนย์การค้า": null
+
+2019-09-08 22:54:53 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S4_16", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:53 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:53 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"2", "vote":xlsData.getValue("S4_17", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:53 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:53 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"3", "vote":xlsData.getValue("S4_18", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:54 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:54:54 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:54 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:54 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:54 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:54 - [TEST_STEP][PASSED] - setText(findTestObject("text_area2"), xlsData.getValue("S5", row)): Text 'Test4' is set on object 'Object Repository/text_area2'
+
+2019-09-08 22:54:54 - [MESSAGE][PASSED] - Text 'Test4' is set on object 'Object Repository/text_area2'
+
+2019-09-08 22:54:54 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:54 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:54:54 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:54 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:54:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-09-08 22:54:54 - [MESSAGE][PASSED] - Browser is closed
+
+2019-09-08 22:54:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-09-08 22:54:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-09-08 22:54:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-09-08 22:54:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-09-08 22:54:57 - [MESSAGE][PASSED] - Current window maximized
+
+2019-09-08 22:54:57 - [TEST_STEP][PASSED] - navigateToUrl("https://surveyconduct.feedback180.com/2loxunw?round=5"): Navigate to 'https://surveyconduct.feedback180.com/2loxunw?round=5' successfully
+
+2019-09-08 22:54:58 - [MESSAGE][PASSED] - Navigate to 'https://surveyconduct.feedback180.com/2loxunw?round=5' successfully
+
+2019-09-08 22:54:58 - [TEST_STEP][PASSED] - click(findTestObject("btn_start")): Object: 'Object Repository/btn_start' is clicked on
+
+2019-09-08 22:54:59 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_start' is clicked on
+
+2019-09-08 22:54:59 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("dropdown_region"), time): Object 'Object Repository/dropdown_region' is visible
+
+2019-09-08 22:54:59 - [MESSAGE][PASSED] - Object 'Object Repository/dropdown_region' is visible
+
+2019-09-08 22:54:59 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("dropdown_region"), xlsData.getValue("B2_1", row), true): All options with label 'ภาคเหนือ' are selected in object 'Object Repository/dropdown_region'  using regular expression
+
+2019-09-08 22:54:59 - [MESSAGE][PASSED] - All options with label 'ภาคเหนือ' are selected in object 'Object Repository/dropdown_region'  using regular expression
+
+2019-09-08 22:54:59 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("dropdown_branch"), time): Object 'Object Repository/dropdown_branch' is visible
+
+2019-09-08 22:54:59 - [MESSAGE][PASSED] - Object 'Object Repository/dropdown_branch' is visible
+
+2019-09-08 22:54:59 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("dropdown_branch"), xlsData.getValue("B2_2", row), true): All options with label 'เซ็นทรัลพลาซา เชียงใหม่ แอร์พอร์ต' are selected in object 'Object Repository/dropdown_branch'  using regular expression
+
+2019-09-08 22:55:00 - [MESSAGE][PASSED] - All options with label 'เซ็นทรัลพลาซา เชียงใหม่ แอร์พอร์ต' are selected in object 'Object Repository/dropdown_branch'  using regular expression
+
+2019-09-08 22:55:00 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:00 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:00 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:00 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:00 - [TEST_STEP][PASSED] - click(findTestObject("radio_age", ["age":xlsData.getValue("T2", row)])): Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:55:00 - [MESSAGE][PASSED] - Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:55:00 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:00 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:00 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:00 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:00 - [TEST_STEP][PASSED] - click(findTestObject("radio_age", ["age":xlsData.getValue("T3", row)])): Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:55:00 - [MESSAGE][PASSED] - Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:55:00 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:00 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:00 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:01 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:01 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S1", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:01 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:01 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:01 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:01 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:01 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:01 - [TEST_STEP][PASSED] - click(findTestObject("radio_age", ["age":xlsData.getValue("S2", row)])): Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:55:01 - [MESSAGE][PASSED] - Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:55:01 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:01 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:01 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:01 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:01 - [TEST_STEP][PASSED] - "สำหรับเจ้าหน้าที่ศูนย์การค้าในข้างต้นคุณมีความพึงพอใจต่อการให้บริการในด้านต่อไปนี้ระดับใด?": null
+
+2019-09-08 22:55:01 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S3_1", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:02 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:02 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"2", "vote":xlsData.getValue("S3_2", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:02 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:02 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"3", "vote":xlsData.getValue("S3_3", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:02 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:02 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"4", "vote":xlsData.getValue("S3_4", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:02 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:02 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"5", "vote":xlsData.getValue("S3_5", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:02 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:02 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:02 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:02 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:03 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:03 - [TEST_STEP][PASSED] - "อีเว้นท์และโปรโมชั่นส่งเสริมการขาย": null
+
+2019-09-08 22:55:03 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S4_1", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:03 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:03 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"2", "vote":xlsData.getValue("S4_2", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:03 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:03 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"3", "vote":xlsData.getValue("S4_3", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:03 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:03 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"4", "vote":xlsData.getValue("S4_4", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:03 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:03 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"5", "vote":xlsData.getValue("S4_5", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:03 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:03 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:03 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:03 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:04 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:04 - [TEST_STEP][PASSED] - click(findTestObject("radio_age", ["age":xlsData.getValue("S4-1", row)])): Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:55:04 - [MESSAGE][PASSED] - Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:55:04 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:04 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:04 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:04 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:04 - [TEST_STEP][PASSED] - if (getValue("S4-1", row).equalsIgnoreCase("1")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:04 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S4_6", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:04 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:04 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"2", "vote":xlsData.getValue("S4_7", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:04 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:04 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"3", "vote":xlsData.getValue("S4_8", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:04 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:04 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"4", "vote":xlsData.getValue("S4_9", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:05 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:05 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:05 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:05 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:05 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:05 - [TEST_STEP][PASSED] - "สภาพแวดล้อมบริเวณหน้าร้านค้าและภายในศูนย์การค้า": null
+
+2019-09-08 22:55:05 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S4_11", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:05 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:05 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"2", "vote":xlsData.getValue("S4_12", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:05 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:05 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"3", "vote":xlsData.getValue("S4_13", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:05 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:05 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"4", "vote":xlsData.getValue("S4_14", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:05 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:05 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"5", "vote":xlsData.getValue("S4_15.1", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:06 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:06 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"6", "vote":xlsData.getValue("S4_15.2", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:06 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:06 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:06 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:06 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:06 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:06 - [TEST_STEP][PASSED] - "การบริหารจัดการศูนย์การค้า": null
+
+2019-09-08 22:55:06 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S4_16", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:06 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:06 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"2", "vote":xlsData.getValue("S4_17", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:06 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:06 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"3", "vote":xlsData.getValue("S4_18", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:06 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:06 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:06 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:06 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:07 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:07 - [TEST_STEP][PASSED] - setText(findTestObject("text_area2"), xlsData.getValue("S5", row)): Text 'Test5' is set on object 'Object Repository/text_area2'
+
+2019-09-08 22:55:07 - [MESSAGE][PASSED] - Text 'Test5' is set on object 'Object Repository/text_area2'
+
+2019-09-08 22:55:07 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:07 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:07 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:07 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-09-08 22:55:08 - [MESSAGE][PASSED] - Browser is closed
+
+2019-09-08 22:55:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-09-08 22:55:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-09-08 22:55:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-09-08 22:55:10 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-09-08 22:55:11 - [MESSAGE][PASSED] - Current window maximized
+
+2019-09-08 22:55:11 - [TEST_STEP][PASSED] - navigateToUrl("https://surveyconduct.feedback180.com/2loxunw?round=5"): Navigate to 'https://surveyconduct.feedback180.com/2loxunw?round=5' successfully
+
+2019-09-08 22:55:12 - [MESSAGE][PASSED] - Navigate to 'https://surveyconduct.feedback180.com/2loxunw?round=5' successfully
+
+2019-09-08 22:55:12 - [TEST_STEP][PASSED] - click(findTestObject("btn_start")): Object: 'Object Repository/btn_start' is clicked on
+
+2019-09-08 22:55:13 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_start' is clicked on
+
+2019-09-08 22:55:13 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("dropdown_region"), time): Object 'Object Repository/dropdown_region' is visible
+
+2019-09-08 22:55:13 - [MESSAGE][PASSED] - Object 'Object Repository/dropdown_region' is visible
+
+2019-09-08 22:55:13 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("dropdown_region"), xlsData.getValue("B2_1", row), true): All options with label 'ภาคใต้' are selected in object 'Object Repository/dropdown_region'  using regular expression
+
+2019-09-08 22:55:14 - [MESSAGE][PASSED] - All options with label 'ภาคใต้' are selected in object 'Object Repository/dropdown_region'  using regular expression
+
+2019-09-08 22:55:14 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("dropdown_branch"), time): Object 'Object Repository/dropdown_branch' is visible
+
+2019-09-08 22:55:14 - [MESSAGE][PASSED] - Object 'Object Repository/dropdown_branch' is visible
+
+2019-09-08 22:55:14 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("dropdown_branch"), xlsData.getValue("B2_2", row), true): All options with label 'เซ็นทรัลพลาซา นครศรีธรรมราช' are selected in object 'Object Repository/dropdown_branch'  using regular expression
+
+2019-09-08 22:55:14 - [MESSAGE][PASSED] - All options with label 'เซ็นทรัลพลาซา นครศรีธรรมราช' are selected in object 'Object Repository/dropdown_branch'  using regular expression
+
+2019-09-08 22:55:14 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:14 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:14 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:14 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:14 - [TEST_STEP][PASSED] - click(findTestObject("radio_age", ["age":xlsData.getValue("T2", row)])): Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:55:15 - [MESSAGE][PASSED] - Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:55:15 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:15 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:15 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:15 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:15 - [TEST_STEP][PASSED] - click(findTestObject("radio_age", ["age":xlsData.getValue("T3", row)])): Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:55:15 - [MESSAGE][PASSED] - Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:55:15 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:15 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:15 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:15 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:15 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S1", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:16 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:16 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:16 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:16 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:16 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:16 - [TEST_STEP][PASSED] - click(findTestObject("radio_age", ["age":xlsData.getValue("S2", row)])): Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:55:16 - [MESSAGE][PASSED] - Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:55:16 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:16 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:16 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:16 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:16 - [TEST_STEP][PASSED] - "สำหรับเจ้าหน้าที่ศูนย์การค้าในข้างต้นคุณมีความพึงพอใจต่อการให้บริการในด้านต่อไปนี้ระดับใด?": null
+
+2019-09-08 22:55:16 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S3_1", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:16 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:16 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"2", "vote":xlsData.getValue("S3_2", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:17 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:17 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"3", "vote":xlsData.getValue("S3_3", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:17 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:17 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"4", "vote":xlsData.getValue("S3_4", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:17 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:17 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"5", "vote":xlsData.getValue("S3_5", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:17 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:17 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:17 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:17 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:18 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:18 - [TEST_STEP][PASSED] - "อีเว้นท์และโปรโมชั่นส่งเสริมการขาย": null
+
+2019-09-08 22:55:18 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S4_1", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:18 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:18 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"2", "vote":xlsData.getValue("S4_2", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:18 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:18 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"3", "vote":xlsData.getValue("S4_3", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:18 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:18 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"4", "vote":xlsData.getValue("S4_4", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:18 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:18 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"5", "vote":xlsData.getValue("S4_5", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:19 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:19 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:19 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:19 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:19 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:19 - [TEST_STEP][PASSED] - click(findTestObject("radio_age", ["age":xlsData.getValue("S4-1", row)])): Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:55:19 - [MESSAGE][PASSED] - Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:55:19 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:19 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:19 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:19 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:19 - [TEST_STEP][PASSED] - if (getValue("S4-1", row).equalsIgnoreCase("1")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:19 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S4_6", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:19 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:19 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"2", "vote":xlsData.getValue("S4_7", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:20 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:20 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"3", "vote":xlsData.getValue("S4_8", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:20 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:20 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"4", "vote":xlsData.getValue("S4_9", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:20 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:20 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:20 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:20 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:20 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:20 - [TEST_STEP][PASSED] - "สภาพแวดล้อมบริเวณหน้าร้านค้าและภายในศูนย์การค้า": null
+
+2019-09-08 22:55:20 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S4_11", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:21 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:21 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"2", "vote":xlsData.getValue("S4_12", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:21 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:21 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"3", "vote":xlsData.getValue("S4_13", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:21 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:21 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"4", "vote":xlsData.getValue("S4_14", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:21 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:21 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"5", "vote":xlsData.getValue("S4_15.1", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:21 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:21 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"6", "vote":xlsData.getValue("S4_15.2", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:22 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:22 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:22 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:22 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:22 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:22 - [TEST_STEP][PASSED] - "การบริหารจัดการศูนย์การค้า": null
+
+2019-09-08 22:55:22 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S4_16", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:22 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:22 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"2", "vote":xlsData.getValue("S4_17", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:22 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:22 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"3", "vote":xlsData.getValue("S4_18", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:22 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:22 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:23 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:23 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:23 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:23 - [TEST_STEP][PASSED] - setText(findTestObject("text_area2"), xlsData.getValue("S5", row)): Text 'Test6' is set on object 'Object Repository/text_area2'
+
+2019-09-08 22:55:23 - [MESSAGE][PASSED] - Text 'Test6' is set on object 'Object Repository/text_area2'
+
+2019-09-08 22:55:23 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:23 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:23 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:24 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-09-08 22:55:24 - [MESSAGE][PASSED] - Browser is closed
+
+2019-09-08 22:55:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-09-08 22:55:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-09-08 22:55:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-09-08 22:55:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-09-08 22:55:28 - [MESSAGE][PASSED] - Current window maximized
+
+2019-09-08 22:55:28 - [TEST_STEP][PASSED] - navigateToUrl("https://surveyconduct.feedback180.com/2loxunw?round=5"): Navigate to 'https://surveyconduct.feedback180.com/2loxunw?round=5' successfully
+
+2019-09-08 22:55:30 - [MESSAGE][PASSED] - Navigate to 'https://surveyconduct.feedback180.com/2loxunw?round=5' successfully
+
+2019-09-08 22:55:30 - [TEST_STEP][PASSED] - click(findTestObject("btn_start")): Object: 'Object Repository/btn_start' is clicked on
+
+2019-09-08 22:55:30 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_start' is clicked on
+
+2019-09-08 22:55:30 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("dropdown_region"), time): Object 'Object Repository/dropdown_region' is visible
+
+2019-09-08 22:55:30 - [MESSAGE][PASSED] - Object 'Object Repository/dropdown_region' is visible
+
+2019-09-08 22:55:30 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("dropdown_region"), xlsData.getValue("B2_1", row), true): All options with label 'กรุงเทพฯ' are selected in object 'Object Repository/dropdown_region'  using regular expression
+
+2019-09-08 22:55:31 - [MESSAGE][PASSED] - All options with label 'กรุงเทพฯ' are selected in object 'Object Repository/dropdown_region'  using regular expression
+
+2019-09-08 22:55:31 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("dropdown_branch"), time): Object 'Object Repository/dropdown_branch' is visible
+
+2019-09-08 22:55:31 - [MESSAGE][PASSED] - Object 'Object Repository/dropdown_branch' is visible
+
+2019-09-08 22:55:31 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("dropdown_branch"), xlsData.getValue("B2_2", row), true): All options with label 'เซ็นทรัลพลาซา แกรนด์ พระราม 9' are selected in object 'Object Repository/dropdown_branch'  using regular expression
+
+2019-09-08 22:55:32 - [MESSAGE][PASSED] - All options with label 'เซ็นทรัลพลาซา แกรนด์ พระราม 9' are selected in object 'Object Repository/dropdown_branch'  using regular expression
+
+2019-09-08 22:55:32 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:32 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:32 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:33 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:33 - [TEST_STEP][PASSED] - click(findTestObject("radio_age", ["age":xlsData.getValue("T2", row)])): Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:55:33 - [MESSAGE][PASSED] - Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:55:33 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:33 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:33 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:33 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:33 - [TEST_STEP][PASSED] - click(findTestObject("radio_age", ["age":xlsData.getValue("T3", row)])): Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:55:33 - [MESSAGE][PASSED] - Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:55:33 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:33 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:33 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:34 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:34 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S1", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:34 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:34 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:34 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:34 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:34 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:34 - [TEST_STEP][PASSED] - click(findTestObject("radio_age", ["age":xlsData.getValue("S2", row)])): Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:55:34 - [MESSAGE][PASSED] - Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:55:34 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:34 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:34 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:35 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:35 - [TEST_STEP][PASSED] - "สำหรับเจ้าหน้าที่ศูนย์การค้าในข้างต้นคุณมีความพึงพอใจต่อการให้บริการในด้านต่อไปนี้ระดับใด?": null
+
+2019-09-08 22:55:35 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S3_1", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:35 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:35 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"2", "vote":xlsData.getValue("S3_2", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:35 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:35 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"3", "vote":xlsData.getValue("S3_3", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:35 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:35 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"4", "vote":xlsData.getValue("S3_4", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:35 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:35 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"5", "vote":xlsData.getValue("S3_5", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:36 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:36 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:36 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:36 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:36 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:36 - [TEST_STEP][PASSED] - "อีเว้นท์และโปรโมชั่นส่งเสริมการขาย": null
+
+2019-09-08 22:55:36 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S4_1", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:36 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:36 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"2", "vote":xlsData.getValue("S4_2", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:36 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:36 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"3", "vote":xlsData.getValue("S4_3", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:37 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:37 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"4", "vote":xlsData.getValue("S4_4", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:37 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:37 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"5", "vote":xlsData.getValue("S4_5", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:37 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:37 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:37 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:37 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:37 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:37 - [TEST_STEP][PASSED] - click(findTestObject("radio_age", ["age":xlsData.getValue("S4-1", row)])): Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:55:37 - [MESSAGE][PASSED] - Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:55:37 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:37 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:37 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:38 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:38 - [TEST_STEP][PASSED] - if (getValue("S4-1", row).equalsIgnoreCase("1")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:38 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S4_6", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:38 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:38 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"2", "vote":xlsData.getValue("S4_7", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:38 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:38 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"3", "vote":xlsData.getValue("S4_8", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:38 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:38 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"4", "vote":xlsData.getValue("S4_9", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:38 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:38 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:38 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:38 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:39 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:39 - [TEST_STEP][PASSED] - "สภาพแวดล้อมบริเวณหน้าร้านค้าและภายในศูนย์การค้า": null
+
+2019-09-08 22:55:39 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S4_11", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:39 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:39 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"2", "vote":xlsData.getValue("S4_12", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:39 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:39 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"3", "vote":xlsData.getValue("S4_13", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:39 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:39 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"4", "vote":xlsData.getValue("S4_14", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:39 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:39 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"5", "vote":xlsData.getValue("S4_15.1", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:40 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:40 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"6", "vote":xlsData.getValue("S4_15.2", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:40 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:40 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:40 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:40 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:40 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:40 - [TEST_STEP][PASSED] - "การบริหารจัดการศูนย์การค้า": null
+
+2019-09-08 22:55:40 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S4_16", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:40 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:40 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"2", "vote":xlsData.getValue("S4_17", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:40 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:40 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"3", "vote":xlsData.getValue("S4_18", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:41 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:41 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:41 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:41 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:41 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:41 - [TEST_STEP][PASSED] - setText(findTestObject("text_area2"), xlsData.getValue("S5", row)): Text 'Test7' is set on object 'Object Repository/text_area2'
+
+2019-09-08 22:55:42 - [MESSAGE][PASSED] - Text 'Test7' is set on object 'Object Repository/text_area2'
+
+2019-09-08 22:55:42 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:42 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:42 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:42 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-09-08 22:55:42 - [MESSAGE][PASSED] - Browser is closed
+
+2019-09-08 22:55:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-09-08 22:55:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-09-08 22:55:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-09-08 22:55:45 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-09-08 22:55:46 - [MESSAGE][PASSED] - Current window maximized
+
+2019-09-08 22:55:46 - [TEST_STEP][PASSED] - navigateToUrl("https://surveyconduct.feedback180.com/2loxunw?round=5"): Navigate to 'https://surveyconduct.feedback180.com/2loxunw?round=5' successfully
+
+2019-09-08 22:55:48 - [MESSAGE][PASSED] - Navigate to 'https://surveyconduct.feedback180.com/2loxunw?round=5' successfully
+
+2019-09-08 22:55:48 - [TEST_STEP][PASSED] - click(findTestObject("btn_start")): Object: 'Object Repository/btn_start' is clicked on
+
+2019-09-08 22:55:48 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_start' is clicked on
+
+2019-09-08 22:55:48 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("dropdown_region"), time): Object 'Object Repository/dropdown_region' is visible
+
+2019-09-08 22:55:48 - [MESSAGE][PASSED] - Object 'Object Repository/dropdown_region' is visible
+
+2019-09-08 22:55:48 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("dropdown_region"), xlsData.getValue("B2_1", row), true): All options with label 'ภาคเหนือ' are selected in object 'Object Repository/dropdown_region'  using regular expression
+
+2019-09-08 22:55:49 - [MESSAGE][PASSED] - All options with label 'ภาคเหนือ' are selected in object 'Object Repository/dropdown_region'  using regular expression
+
+2019-09-08 22:55:49 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("dropdown_branch"), time): Object 'Object Repository/dropdown_branch' is visible
+
+2019-09-08 22:55:49 - [MESSAGE][PASSED] - Object 'Object Repository/dropdown_branch' is visible
+
+2019-09-08 22:55:49 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("dropdown_branch"), xlsData.getValue("B2_2", row), true): All options with label 'เซ็นทรัลเฟสติวัล เชียงใหม่' are selected in object 'Object Repository/dropdown_branch'  using regular expression
+
+2019-09-08 22:55:50 - [MESSAGE][PASSED] - All options with label 'เซ็นทรัลเฟสติวัล เชียงใหม่' are selected in object 'Object Repository/dropdown_branch'  using regular expression
+
+2019-09-08 22:55:50 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:50 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:50 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:51 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:51 - [TEST_STEP][PASSED] - click(findTestObject("radio_age", ["age":xlsData.getValue("T2", row)])): Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:55:51 - [MESSAGE][PASSED] - Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:55:51 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:51 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:51 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:51 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:51 - [TEST_STEP][PASSED] - click(findTestObject("radio_age", ["age":xlsData.getValue("T3", row)])): Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:55:52 - [MESSAGE][PASSED] - Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:55:52 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:52 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:52 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:52 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:52 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S1", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:52 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:52 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:52 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:52 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:53 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:53 - [TEST_STEP][PASSED] - click(findTestObject("radio_age", ["age":xlsData.getValue("S2", row)])): Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:55:53 - [MESSAGE][PASSED] - Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:55:53 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:53 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:53 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:53 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:53 - [TEST_STEP][PASSED] - "สำหรับเจ้าหน้าที่ศูนย์การค้าในข้างต้นคุณมีความพึงพอใจต่อการให้บริการในด้านต่อไปนี้ระดับใด?": null
+
+2019-09-08 22:55:53 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S3_1", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:53 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:53 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"2", "vote":xlsData.getValue("S3_2", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:54 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:54 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"3", "vote":xlsData.getValue("S3_3", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:54 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:54 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"4", "vote":xlsData.getValue("S3_4", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:54 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:54 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"5", "vote":xlsData.getValue("S3_5", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:54 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:54 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:54 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:54 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:55 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:55 - [TEST_STEP][PASSED] - "อีเว้นท์และโปรโมชั่นส่งเสริมการขาย": null
+
+2019-09-08 22:55:55 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S4_1", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:55 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:55 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"2", "vote":xlsData.getValue("S4_2", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:55 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:55 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"3", "vote":xlsData.getValue("S4_3", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:55 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:55 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"4", "vote":xlsData.getValue("S4_4", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:56 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:56 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"5", "vote":xlsData.getValue("S4_5", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:56 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:56 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:56 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:56 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:56 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:56 - [TEST_STEP][PASSED] - click(findTestObject("radio_age", ["age":xlsData.getValue("S4-1", row)])): Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:55:56 - [MESSAGE][PASSED] - Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:55:56 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:56 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:56 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:57 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:57 - [TEST_STEP][PASSED] - if (getValue("S4-1", row).equalsIgnoreCase("1")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:57 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S4_6", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:57 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:57 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"2", "vote":xlsData.getValue("S4_7", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:57 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:57 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"3", "vote":xlsData.getValue("S4_8", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:57 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:57 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"4", "vote":xlsData.getValue("S4_9", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:57 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:57 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:58 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:58 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:58 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:58 - [TEST_STEP][PASSED] - "สภาพแวดล้อมบริเวณหน้าร้านค้าและภายในศูนย์การค้า": null
+
+2019-09-08 22:55:58 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S4_11", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:58 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:58 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"2", "vote":xlsData.getValue("S4_12", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:58 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:58 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"3", "vote":xlsData.getValue("S4_13", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:58 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:58 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"4", "vote":xlsData.getValue("S4_14", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:59 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:59 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"5", "vote":xlsData.getValue("S4_15.1", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:59 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:59 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"6", "vote":xlsData.getValue("S4_15.2", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:59 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:59 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:59 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:55:59 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:59 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:55:59 - [TEST_STEP][PASSED] - "การบริหารจัดการศูนย์การค้า": null
+
+2019-09-08 22:55:59 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S4_16", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:59 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:55:59 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"2", "vote":xlsData.getValue("S4_17", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:00 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:00 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"3", "vote":xlsData.getValue("S4_18", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:00 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:00 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:56:00 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:56:00 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:56:00 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:56:00 - [TEST_STEP][PASSED] - setText(findTestObject("text_area2"), xlsData.getValue("S5", row)): Text 'Test8' is set on object 'Object Repository/text_area2'
+
+2019-09-08 22:56:01 - [MESSAGE][PASSED] - Text 'Test8' is set on object 'Object Repository/text_area2'
+
+2019-09-08 22:56:01 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:56:01 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:56:01 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:56:01 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:56:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-09-08 22:56:01 - [MESSAGE][PASSED] - Browser is closed
+
+2019-09-08 22:56:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-09-08 22:56:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-09-08 22:56:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-09-08 22:56:05 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-09-08 22:56:05 - [MESSAGE][PASSED] - Current window maximized
+
+2019-09-08 22:56:05 - [TEST_STEP][PASSED] - navigateToUrl("https://surveyconduct.feedback180.com/2loxunw?round=5"): Navigate to 'https://surveyconduct.feedback180.com/2loxunw?round=5' successfully
+
+2019-09-08 22:56:07 - [MESSAGE][PASSED] - Navigate to 'https://surveyconduct.feedback180.com/2loxunw?round=5' successfully
+
+2019-09-08 22:56:07 - [TEST_STEP][PASSED] - click(findTestObject("btn_start")): Object: 'Object Repository/btn_start' is clicked on
+
+2019-09-08 22:56:07 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_start' is clicked on
+
+2019-09-08 22:56:07 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("dropdown_region"), time): Object 'Object Repository/dropdown_region' is visible
+
+2019-09-08 22:56:08 - [MESSAGE][PASSED] - Object 'Object Repository/dropdown_region' is visible
+
+2019-09-08 22:56:08 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("dropdown_region"), xlsData.getValue("B2_1", row), true): All options with label 'ภาคใต้' are selected in object 'Object Repository/dropdown_region'  using regular expression
+
+2019-09-08 22:56:08 - [MESSAGE][PASSED] - All options with label 'ภาคใต้' are selected in object 'Object Repository/dropdown_region'  using regular expression
+
+2019-09-08 22:56:08 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("dropdown_branch"), time): Object 'Object Repository/dropdown_branch' is visible
+
+2019-09-08 22:56:08 - [MESSAGE][PASSED] - Object 'Object Repository/dropdown_branch' is visible
+
+2019-09-08 22:56:08 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("dropdown_branch"), xlsData.getValue("B2_2", row), true): All options with label 'เซ็นทรัลเฟสติวัล สมุย' are selected in object 'Object Repository/dropdown_branch'  using regular expression
+
+2019-09-08 22:56:09 - [MESSAGE][PASSED] - All options with label 'เซ็นทรัลเฟสติวัล สมุย' are selected in object 'Object Repository/dropdown_branch'  using regular expression
+
+2019-09-08 22:56:09 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:56:09 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:56:09 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:56:10 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:56:10 - [TEST_STEP][PASSED] - click(findTestObject("radio_age", ["age":xlsData.getValue("T2", row)])): Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:56:10 - [MESSAGE][PASSED] - Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:56:10 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:56:10 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:56:10 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:56:10 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:56:10 - [TEST_STEP][PASSED] - click(findTestObject("radio_age", ["age":xlsData.getValue("T3", row)])): Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:56:10 - [MESSAGE][PASSED] - Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:56:10 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:56:10 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:56:10 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:56:11 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:56:11 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S1", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:11 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:11 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:56:11 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:56:11 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:56:11 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:56:11 - [TEST_STEP][PASSED] - click(findTestObject("radio_age", ["age":xlsData.getValue("S2", row)])): Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:56:11 - [MESSAGE][PASSED] - Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:56:11 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:56:11 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:56:11 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:56:12 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:56:12 - [TEST_STEP][PASSED] - "สำหรับเจ้าหน้าที่ศูนย์การค้าในข้างต้นคุณมีความพึงพอใจต่อการให้บริการในด้านต่อไปนี้ระดับใด?": null
+
+2019-09-08 22:56:12 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S3_1", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:12 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:12 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"2", "vote":xlsData.getValue("S3_2", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:12 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:12 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"3", "vote":xlsData.getValue("S3_3", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:12 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:12 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"4", "vote":xlsData.getValue("S3_4", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:13 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:13 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"5", "vote":xlsData.getValue("S3_5", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:13 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:13 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:56:13 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:56:13 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:56:13 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:56:13 - [TEST_STEP][PASSED] - "อีเว้นท์และโปรโมชั่นส่งเสริมการขาย": null
+
+2019-09-08 22:56:13 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S4_1", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:14 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:14 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"2", "vote":xlsData.getValue("S4_2", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:14 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:14 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"3", "vote":xlsData.getValue("S4_3", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:14 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:14 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"4", "vote":xlsData.getValue("S4_4", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:14 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:14 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"5", "vote":xlsData.getValue("S4_5", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:15 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:15 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:56:15 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:56:15 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:56:15 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:56:15 - [TEST_STEP][PASSED] - click(findTestObject("radio_age", ["age":xlsData.getValue("S4-1", row)])): Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:56:15 - [MESSAGE][PASSED] - Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:56:15 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:56:15 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:56:15 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:56:16 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:56:16 - [TEST_STEP][PASSED] - if (getValue("S4-1", row).equalsIgnoreCase("1")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:56:16 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S4_6", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:16 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:16 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"2", "vote":xlsData.getValue("S4_7", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:16 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:16 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"3", "vote":xlsData.getValue("S4_8", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:16 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:16 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"4", "vote":xlsData.getValue("S4_9", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:17 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:17 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:56:17 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:56:17 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:56:17 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:56:17 - [TEST_STEP][PASSED] - "สภาพแวดล้อมบริเวณหน้าร้านค้าและภายในศูนย์การค้า": null
+
+2019-09-08 22:56:17 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S4_11", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:17 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:17 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"2", "vote":xlsData.getValue("S4_12", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:18 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:18 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"3", "vote":xlsData.getValue("S4_13", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:18 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:18 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"4", "vote":xlsData.getValue("S4_14", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:18 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:18 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"5", "vote":xlsData.getValue("S4_15.1", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:18 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:18 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"6", "vote":xlsData.getValue("S4_15.2", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:19 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:19 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:56:19 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:56:19 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:56:19 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:56:19 - [TEST_STEP][PASSED] - "การบริหารจัดการศูนย์การค้า": null
+
+2019-09-08 22:56:19 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S4_16", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:19 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:19 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"2", "vote":xlsData.getValue("S4_17", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:19 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:19 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"3", "vote":xlsData.getValue("S4_18", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:20 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:20 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:56:20 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:56:20 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:56:20 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:56:20 - [TEST_STEP][PASSED] - setText(findTestObject("text_area2"), xlsData.getValue("S5", row)): Text 'Test9' is set on object 'Object Repository/text_area2'
+
+2019-09-08 22:56:21 - [MESSAGE][PASSED] - Text 'Test9' is set on object 'Object Repository/text_area2'
+
+2019-09-08 22:56:21 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:56:21 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:56:21 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:56:21 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:56:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-09-08 22:56:21 - [MESSAGE][PASSED] - Browser is closed
+
+2019-09-08 22:56:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-09-08 22:56:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-09-08 22:56:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-09-08 22:56:25 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-09-08 22:56:25 - [MESSAGE][PASSED] - Current window maximized
+
+2019-09-08 22:56:25 - [TEST_STEP][PASSED] - navigateToUrl("https://surveyconduct.feedback180.com/2loxunw?round=5"): Navigate to 'https://surveyconduct.feedback180.com/2loxunw?round=5' successfully
+
+2019-09-08 22:56:27 - [MESSAGE][PASSED] - Navigate to 'https://surveyconduct.feedback180.com/2loxunw?round=5' successfully
+
+2019-09-08 22:56:27 - [TEST_STEP][PASSED] - click(findTestObject("btn_start")): Object: 'Object Repository/btn_start' is clicked on
+
+2019-09-08 22:56:28 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_start' is clicked on
+
+2019-09-08 22:56:28 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("dropdown_region"), time): Object 'Object Repository/dropdown_region' is visible
+
+2019-09-08 22:56:28 - [MESSAGE][PASSED] - Object 'Object Repository/dropdown_region' is visible
+
+2019-09-08 22:56:28 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("dropdown_region"), xlsData.getValue("B2_1", row), true): All options with label 'ภาคตะวันออกเฉียงเหนือ' are selected in object 'Object Repository/dropdown_region'  using regular expression
+
+2019-09-08 22:56:29 - [MESSAGE][PASSED] - All options with label 'ภาคตะวันออกเฉียงเหนือ' are selected in object 'Object Repository/dropdown_region'  using regular expression
+
+2019-09-08 22:56:29 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("dropdown_branch"), time): Object 'Object Repository/dropdown_branch' is visible
+
+2019-09-08 22:56:29 - [MESSAGE][PASSED] - Object 'Object Repository/dropdown_branch' is visible
+
+2019-09-08 22:56:29 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("dropdown_branch"), xlsData.getValue("B2_2", row), true): All options with label 'เซ็นทรัลพลาซา นครราชสีมา' are selected in object 'Object Repository/dropdown_branch'  using regular expression
+
+2019-09-08 22:56:30 - [MESSAGE][PASSED] - All options with label 'เซ็นทรัลพลาซา นครราชสีมา' are selected in object 'Object Repository/dropdown_branch'  using regular expression
+
+2019-09-08 22:56:30 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:56:30 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:56:30 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:56:30 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:56:30 - [TEST_STEP][PASSED] - click(findTestObject("radio_age", ["age":xlsData.getValue("T2", row)])): Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:56:30 - [MESSAGE][PASSED] - Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:56:30 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:56:30 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:56:30 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:56:31 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:56:31 - [TEST_STEP][PASSED] - click(findTestObject("radio_age", ["age":xlsData.getValue("T3", row)])): Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:56:31 - [MESSAGE][PASSED] - Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:56:31 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:56:31 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:56:31 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:56:31 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:56:31 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S1", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:31 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:31 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:56:31 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:56:31 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:56:32 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:56:32 - [TEST_STEP][PASSED] - click(findTestObject("radio_age", ["age":xlsData.getValue("S2", row)])): Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:56:32 - [MESSAGE][PASSED] - Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:56:32 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:56:32 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:56:32 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:56:32 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:56:32 - [TEST_STEP][PASSED] - "สำหรับเจ้าหน้าที่ศูนย์การค้าในข้างต้นคุณมีความพึงพอใจต่อการให้บริการในด้านต่อไปนี้ระดับใด?": null
+
+2019-09-08 22:56:32 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S3_1", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:33 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:33 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"2", "vote":xlsData.getValue("S3_2", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:33 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:33 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"3", "vote":xlsData.getValue("S3_3", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:33 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:33 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"4", "vote":xlsData.getValue("S3_4", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:33 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:33 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"5", "vote":xlsData.getValue("S3_5", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:34 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:34 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:56:34 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:56:34 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:56:34 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:56:34 - [TEST_STEP][PASSED] - "อีเว้นท์และโปรโมชั่นส่งเสริมการขาย": null
+
+2019-09-08 22:56:34 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S4_1", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:34 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:34 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"2", "vote":xlsData.getValue("S4_2", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:35 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:35 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"3", "vote":xlsData.getValue("S4_3", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:35 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:35 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"4", "vote":xlsData.getValue("S4_4", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:35 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:35 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"5", "vote":xlsData.getValue("S4_5", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:35 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:35 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:56:36 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:56:36 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:56:36 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:56:36 - [TEST_STEP][PASSED] - click(findTestObject("radio_age", ["age":xlsData.getValue("S4-1", row)])): Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:56:36 - [MESSAGE][PASSED] - Object: 'Object Repository/radio_age' is clicked on
+
+2019-09-08 22:56:36 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:56:36 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:56:36 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:56:37 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:56:37 - [TEST_STEP][PASSED] - if (getValue("S4-1", row).equalsIgnoreCase("1")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:56:37 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S4_6", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:37 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:37 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"2", "vote":xlsData.getValue("S4_7", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:37 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:37 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"3", "vote":xlsData.getValue("S4_8", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:37 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:37 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"4", "vote":xlsData.getValue("S4_9", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:37 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:37 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:56:38 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:56:38 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:56:38 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:56:38 - [TEST_STEP][PASSED] - "สภาพแวดล้อมบริเวณหน้าร้านค้าและภายในศูนย์การค้า": null
+
+2019-09-08 22:56:38 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S4_11", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:38 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:38 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"2", "vote":xlsData.getValue("S4_12", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:38 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:38 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"3", "vote":xlsData.getValue("S4_13", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:39 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:39 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"4", "vote":xlsData.getValue("S4_14", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:39 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:39 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"5", "vote":xlsData.getValue("S4_15.1", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:39 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:39 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"6", "vote":xlsData.getValue("S4_15.2", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:39 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:39 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:56:39 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:56:39 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:56:40 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:56:40 - [TEST_STEP][PASSED] - "การบริหารจัดการศูนย์การค้า": null
+
+2019-09-08 22:56:40 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"1", "vote":xlsData.getValue("S4_16", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:40 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:40 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"2", "vote":xlsData.getValue("S4_17", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:40 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:40 - [TEST_STEP][PASSED] - click(findTestObject("vote_score", ["rowNo":"3", "vote":xlsData.getValue("S4_18", row)])): Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:40 - [MESSAGE][PASSED] - Object: 'Object Repository/vote_score' is clicked on
+
+2019-09-08 22:56:40 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:56:40 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:56:40 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:56:41 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:56:41 - [TEST_STEP][PASSED] - setText(findTestObject("text_area2"), xlsData.getValue("S5", row)): Text 'Test10' is set on object 'Object Repository/text_area2'
+
+2019-09-08 22:56:41 - [MESSAGE][PASSED] - Text 'Test10' is set on object 'Object Repository/text_area2'
+
+2019-09-08 22:56:41 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("btn_next"), time): Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:56:41 - [MESSAGE][PASSED] - Object 'Object Repository/btn_next' is visible
+
+2019-09-08 22:56:41 - [TEST_STEP][PASSED] - click(findTestObject("btn_next")): Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:56:42 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_next' is clicked on
+
+2019-09-08 22:56:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-09-08 22:56:42 - [MESSAGE][PASSED] - Browser is closed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-09-08 22:54:22 - [TEST_SUITE][INCOMPLETE] - TC-02: null</system-out>
+        <system-err>2019-09-08 22:54:22 - [TEST_SUITE][INCOMPLETE] - TC-02: null</system-err>
+    </testsuite>
+</testsuites>

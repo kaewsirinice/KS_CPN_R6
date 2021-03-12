@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-09-08T22:12:24</date>
+  <millis>1567955544255</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/TC-01</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">TC-01</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/TC-01</property>
+</record>
+<record>
+  <date>2019-09-08T22:12:24</date>
+  <millis>1567955544265</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = natty - 10.37.129.2</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">natty - 10.37.129.2</property>
+</record>
+<record>
+  <date>2019-09-08T22:12:24</date>
+  <millis>1567955544266</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Mac OS X 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Mac OS X 64bit</property>
+</record>
+<record>
+  <date>2019-09-08T22:12:24</date>
+  <millis>1567955544266</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 10.37.129.2</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">10.37.129.2</property>
+</record>
+<record>
+  <date>2019-09-08T22:12:24</date>
+  <millis>1567955544266</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.1.5.3</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.1.5.3</property>
+</record>
+<record>
+  <date>2019-09-08T22:12:24</date>
+  <millis>1567955544373</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TC-01_CPN_Shopper</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/TC-01_CPN_Shopper</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/TC-01_CPN_Shopper</property>
+  <property name="source">\\Users\\natty\\Katalon Studio\\CPN_R5\\Test Cases\\TC-01_CPN_Shopper.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-09-08T22:12:24</date>
+  <millis>1567955544413</millis>
+  <sequence>6</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/TC-01_CPN_Shopper</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

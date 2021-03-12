@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC-02,Chrome 76.0.3809.132,,,2019-09-08 15:45:23,2019-09-08 15:46:27,1m - 3.771s,INCOMPLETE
+,,,,,,,
+Test Cases/TC-02_CPN_Tenants,Chrome 76.0.3809.132,,,2019-09-08 15:45:24,2019-09-08 15:46:27,1m - 3.619s,PASSED
+"xlsData = findTestData(""Data_CPN_Tenants"")",Chrome 76.0.3809.132,,,2019-09-08 15:45:24,2019-09-08 15:45:24,0.564s,PASSED
+"for ([row = 1, row <= xlsData.getRowNumbers(), (row++)])",Chrome 76.0.3809.132,,,2019-09-08 15:45:24,2019-09-08 15:46:27,1m - 2.720s,PASSED
